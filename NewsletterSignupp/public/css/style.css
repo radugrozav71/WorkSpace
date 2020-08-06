@@ -1,0 +1,35 @@
+form{
+  position: absolute;
+  padding:15% 42%;
+
+}
+body{
+  background-color: #f0ece3;
+}
+
+.btn{
+  margin-top: 10px;
+  width:310px;
+}
+.field{
+  width:250px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.iconita{
+  margin-left: 113px;
+  margin-bottom: 10px;
+}
+.top-input{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle-input{
+  border-radius: 0;
+}
+.bottom-input{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}

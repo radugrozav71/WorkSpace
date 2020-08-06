@@ -1,0 +1,12 @@
+<%-include("header")-%>
+<h1>Compose</h1>
+<br>
+<p>Title</p>
+<form action="/compose" method="post">
+  <input class="form-control" id = "largerInput" type="text" name="newItems">
+  <p style="font-weight:bold">Post</p>
+  <textarea class="form-control" id = "styleTextArea" name="textInfo" rows="8" cols="161" placeholder="Tell us your story"></textarea>
+  <br>
+  <button class="btn btn-primary" type="submit" name="button">Submit</button>
+</form>
+<%-include("footer")-%>
